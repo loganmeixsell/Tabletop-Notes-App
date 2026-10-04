@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+
+# Databases & Vector DB storage
+*.db
+*.sqlite
+*.sqlite3
+.chromadb/
+apps/rag/.chromadb/
+apps/rag/.note_hashes.json
+
+# RAG Campaign Notes (avoid committing private campaign notes or copyrighted materials)
+apps/rag/notes/*.md
+apps/rag/notes/**/*.md
+apps/rag/notes/*.txt
+apps/rag/notes/**/*.txt
+
+# Profile Images (ignore user uploads, keep default placeholder)
+assets/images/profiles/*
+!assets/images/profiles/NoProfile.png
+!assets/images/profiles/.gitkeep
+
+# IDEs & Developer Tools
+.vscode/
+.claude/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
