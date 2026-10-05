@@ -30,6 +30,7 @@ apps/rag/notes/*.md
 apps/rag/notes/**/*.md
 apps/rag/notes/*.txt
 apps/rag/notes/**/*.txt
+!apps/rag/notes/.gitkeep
 
 # Profile Images (ignore user uploads, keep default placeholder)
 assets/images/profiles/*
